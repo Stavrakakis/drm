@@ -4,8 +4,9 @@ body {
 }
 
 #logo {
+	color: #fff;
 	font-family: Lato;
-	font-size: 60px;
+	font-size: 90px;
 	font-weight: 100;
 	padding: 10%;
 	text-transform: uppercase;
