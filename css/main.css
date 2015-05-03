@@ -1,5 +1,10 @@
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background: none repeat scroll 0% 0% #0AC5F4;
+	border: solid 8px #fff;
 	height: 100vh;
 }
 
