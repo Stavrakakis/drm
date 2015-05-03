@@ -1,10 +1,12 @@
 body {
-	background: none repeat scroll 0% 0% #0AC5F4
+	background: none repeat scroll 0% 0% #0AC5F4;
 	height: 100vh;
 }
 
 #logo {
-	padding: 20%;
 	font-family: Lato;
 	font-size: 60px;
+	font-weight: 100;
+	padding: 10%;
+	text-transform: uppercase;
 }
