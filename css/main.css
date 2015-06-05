@@ -4,8 +4,7 @@
 
 body {
 	background: none repeat scroll 0% 0% #0AC5F4;
-	border: solid 8px #fff;
-	height: 100vh;
+	height: 100%;
 }
 
 #logo {
@@ -13,7 +12,18 @@ body {
 	font-family: Lato;
 	font-size: 90px;
 	font-weight: 100;
-	padding: 33vh;
+	padding: 33vh 0;
 	text-align: center;
 	text-transform: uppercase;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      
+      #logo {
+          font-size: 30px !important;
+          padding: 5em;
+      }
 }
